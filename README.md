@@ -1,4 +1,4 @@
-# x86 assembly (GNU assembler, AT&amp;T style) for [highlight.js](https://highlightjs.org/)
+# x86 assembly syntax (GNU assembler, AT&amp;T style) for [highlight.js](https://highlightjs.org/)
 
 ![exmaple](./screenshot.png)
 
