@@ -1,0 +1,31 @@
+{
+  "name": "highlightjs-x86asmatt",
+  "version": "0.0.1",
+  "description": "highlight.js syntax definition for x86 assembly code (GNU assembler, AT&T style).",
+  "main": "src/languages/x86asmatt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katsuhiko Gondow <gondow@cs.titech.ac.jp>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gondow/highlightjs-x86asmatt.git"
+  },
+  "keywords": [
+    "x86 assembly code",
+    "GNU assembler",
+    "AT&T style",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "bugs": {
+    "url": "https://github.com/gondow/highlightjs-x86asmatt/issues"
+  },
+  "homepage": "https://github.com/gondow/highlightjs-x86asmatt.git",
+  "files": [
+    "dist",
+    "src"
+  ]
+}
