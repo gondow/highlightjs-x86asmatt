@@ -1,8 +1,8 @@
 /*
 Language: Intel x86 Assembly (GNU assembler, AT&T style)
 Author: K. Gondow <gondow@cs.titech.ac.jp>
-Description: x86 assembly language (GNU assembler, AT&T style)
-Website: https://sourceware.org/binutils/docs-2.40/as/index.html
+Description: x86 assembly syntax (GNU assembler, AT&T style)
+Website: https://github.com/gondow/highlightjs-x86asmatt/tree/main
 Category: assembler
 */
 
