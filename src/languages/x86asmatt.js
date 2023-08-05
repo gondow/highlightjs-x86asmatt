@@ -2301,7 +2301,7 @@ export default function (hljs) {
 	    },
 	    { // assembler directives, orange
 		className: "built_in",
-		match : "\\.[a-zA-Z]+\\b"
+		match : "\\.[a-zA-Z][a-zA-Z_0-9]*\\b"
 	    },
 	]
     };
