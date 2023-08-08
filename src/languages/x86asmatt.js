@@ -2290,7 +2290,7 @@ export default function (hljs) {
 		    },
 		    { match: "\\s[+-]?0[bB][01]+"},
 		    { match: "\\s[+-]?0[xX]?[0-9a-fA-F]+"},
-		    { match: "\\$[+-]?[0-9]+"},
+		    { begin: "\\$[+-]?[0-9][bBxX]?[0-9a-fA-F]+"},
 		    { match: "\\s[+-]?[0-9]+"},
 		    { match: "@function"},
 		]
