@@ -2248,6 +2248,7 @@ xstore-rng \
 xstorerng \
 xsusldtrk \
 xtest \
+movabsq \
 ";
 
 export default function (hljs) {
@@ -2293,11 +2294,12 @@ export default function (hljs) {
 		    { begin: "\\$[+-]?[0-9][bBxX]?[0-9a-fA-F]*"},
 		    { match: "\\s[+-]?[0-9]+"},
 		    { match: "@function"},
+		    { match: "@object"},
 		]
 	    },
 	    { // registers, blue
 		className: "title",
-		match: "%[a-zA-Z]+"
+		match: "%[a-zA-Z][a-zA-Z0-9]*"
 	    },
 	    { // assembler directives, orange
 		className: "built_in",
